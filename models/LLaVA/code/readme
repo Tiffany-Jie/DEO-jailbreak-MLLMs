@@ -1,0 +1,7 @@
+#python -m llava.serve.cli     --model-path "/home/zhanglj/mllm/models/LLaVA/model/llava-v1.5-7b"     --image-file "/home/zhang
+lj/mllm/data/advBench-M/advimage/0/1.jpg"    
+使用这个命令直接在命令行加载模型并进行多轮交互
+/home/zhanglj/mllm/attack/Myattack/outputs/image_test_init.jpg
+或者在model下的chat_with_LlaVA.py进行eval_model的高层交互
+
+结果显示，第一种方法的安全性没有第二种高
